@@ -21,7 +21,9 @@
 
 .offer-box{
     font-size: 30px;
-    padding:12px;
+    padding:5px;
+    margin:4px 8px 4px 4px ;
+    border-radius: 4px;
     background-color: coral;
     color: antiquewhite;
     height: 25vh;
