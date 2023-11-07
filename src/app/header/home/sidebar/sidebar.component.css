@@ -1,0 +1,29 @@
+.sidebar-container{
+    margin: 140px 20px 20px 120px;
+    padding:40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 2px #8888;
+}
+
+.sidebar-subscribe-btn{
+    margin:40px 20px 8px 5px;
+    padding:5px;
+    border-radius: 9px;
+    background-color: rgb(70, 68, 68);
+    color:rgb(252, 252, 252);
+    font-size: 16px;
+    height: 10vh;
+    box-shadow: 3px 3px 8px 8px #8888;
+}
+
+.offer-box{
+    font-size: 30px;
+    padding:12px;
+    background-color: coral;
+    color: antiquewhite;
+    height: 25vh;
+    width: 20vw;
+}

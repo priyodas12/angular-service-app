@@ -1,0 +1,29 @@
+.top-header-container{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px 2px #8888;
+}
+
+.site-link{
+    display: flex;
+    flex-direction: row;
+}
+
+h1,h3{
+    margin:10px 5x;
+    padding:10px;
+    color: darkmagenta;
+}
+
+.header-subscribe{
+    margin:8px 20px 8px 5px;
+    padding:5px;
+    border-radius: 5px;
+    background-color: rgb(70, 68, 68);
+    color:rgb(252, 252, 252);
+    font-size: 14px;
+    box-shadow: 1px 1px 4px 4px #8888;
+}
+
