@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  onClickAlert() {
+    alert('U have cilicked header subscribe button!')
+  }
+
 }
