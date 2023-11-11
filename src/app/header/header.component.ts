@@ -4,13 +4,17 @@ import { SubscribeService } from '../services/subscribe.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
+  providers: [SubscribeService]
 })
 export class HeaderComponent {
 
-  onClickAlert() {
-    const subscription = new SubscribeService();
-    subscription.onSubscribeClicked('yearly');
+  constructor(private subscribe: SubscribeService) {
+    console.log(this.subscribe);
+  }
+
+  onSubscription = (type: string) => {
+    this.subscribe.onSubscribeClicked(type);
   }
 
 }
