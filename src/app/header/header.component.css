@@ -25,5 +25,6 @@ h1,h3{
     color:rgb(252, 252, 252);
     font-size: 14px;
     box-shadow: 1px 1px 4px 4px #8888;
+    flex-wrap: wrap;
 }
 
