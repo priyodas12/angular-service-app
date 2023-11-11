@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SubscribeService } from '../services/subscribe.service';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,8 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
 
   onClickAlert() {
-    alert('U have cilicked header subscribe button!')
+    const subscription = new SubscribeService();
+    subscription.onSubscribeClicked('yearly');
   }
 
 }
