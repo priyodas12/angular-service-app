@@ -10,7 +10,7 @@ import { SubscribeService } from '../services/subscribe.service';
 export class HeaderComponent {
 
   constructor(private subscribe: SubscribeService) {
-    console.log(this.subscribe);
+    console.log(JSON.stringify(this.subscribe));
   }
 
   onSubscription = (type: string) => {

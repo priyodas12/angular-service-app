@@ -10,7 +10,7 @@ import { SubscribeService } from '../../../services/subscribe.service';
 export class SidebarComponent {
 
   constructor(private subscribe: SubscribeService) {
-    console.log(this.subscribe);
+    console.log(this.subscribe.toString());
   }
 
   onSubscription = (type: string) => {

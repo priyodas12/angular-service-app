@@ -10,7 +10,7 @@ import { SubscribeService } from '../../../services/subscribe.service';
 export class HeroComponent {
 
   constructor(private subscribe: SubscribeService) {
-    console.log(this.subscribe);
+    console.log(this.subscribe.toString());
   }
   onSubscription = (type: string) => {
     this.subscribe.onSubscribeClicked(type);
